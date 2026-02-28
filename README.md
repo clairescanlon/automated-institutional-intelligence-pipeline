@@ -6,7 +6,7 @@ End-to-end data pipeline transforming unstructured text-heavy PDFs into a mapped
 
 
 ## Overview
-Automated intelligence engine transforming dense PDFs into a structured relational database. The system bypasses complex rhetorical framing to expose the underlying operational logic and systemic dependencies. This allows for the discovery of hidden patterns, systemic risks, and operational shifts that are otherwise obscured.
+Automated intelligence engine transforming dense PDFs into a structured relational database. The system bypasses complex rhetorical framing to expose the underlying operational logic and dependencies. This allows for the discovery of hidden patterns, risks, and operational shifts that are otherwise obscured.
 
 ## Architecture
 The data pipeline utilizes a modular serverless architecture on AWS.
