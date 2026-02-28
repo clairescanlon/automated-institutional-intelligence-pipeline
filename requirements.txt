@@ -1,0 +1,60 @@
+# Requirements
+
+## --- Core Data Manipulation & Math ---
+pandas                # High-performance data structures
+numpy                 # Numerical computing for statistical thresholds
+scipy                 # Advanced statistical analysis for pattern detection
+
+## --- PDF & Unstructured Text Extraction ---
+pdfminer.six          # High-fidelity native PDF text extraction
+pytesseract           # OCR for scanned regulatory documents
+pdfplumber            # Precision table extraction and multi-column parsing
+camelot-py[cv]        # Specialist tool for complex grid-based tables
+opencv-python         # Image preprocessing to improve OCR accuracy
+PyPDF2                # PDF merging and page-level manipulation
+
+## --- Natural Language Processing & Rhetoric Analysis ---
+spacy                 # Industrial-strength NLP for Entity Recognition (NER)
+textacy               # Logic analysis (Subject-Verb-Object extraction)
+vaderSentiment        # Specialized for political/social sentiment analysis
+textblob              # Subjectivity and opinion detection
+textstat              # Readability metrics to detect obfuscation/complexity
+langdetect            # Safety check to ensure document language consistency
+sentence-transformers # Semantic similarity to find hidden thematic links
+gensim                # Topic modeling and document similarity
+bertopic              # Advanced clustering to bypass manipulative framing
+nltk                  # Foundational tokenization and linguistics
+scikit-learn          # Machine learning for document classification
+
+## --- Data Quality, Verification & Validation ---
+pydantic              # Strict data parsing and validation rules
+pandera               # Schema enforcement for pandas DataFrames
+great-expectations    # Automated data quality audits and reporting
+evidently             # Monitoring model drift and data integrity over time
+pandas-schema         # Column-level validation for CSV/Excel exports
+
+## --- AWS & Cloud Infrastructure ---
+boto3                 # AWS SDK for S3, Lambda, and Textract
+urllib3               # Robust HTTP connection pooling for AWS stability
+python-dotenv         # Secure management of AWS credentials and secrets
+
+## --- Database Orchestration & Drivers ---
+SQLAlchemy            # SQL Toolkit and Object Relational Mapper (ORM)
+psycopg2-binary       # Required driver to connect Python to PostgreSQL
+
+## --- Automation, Scraping & API Ingestion ---
+requests              # Primary library for Federal Register API calls
+beautifulsoup4        # Parsing whitehouse.gov for "hidden" or unindexed orders
+lxml                  # High-speed XML/HTML parser for scraping
+tqdm                  # Progress bars for batch processing 81+ documents
+
+## --- Systemic Risk & Network Mapping ---
+networkx              # Mapping relationships between agencies and policies
+
+## --- Observability & Logging ---
+loguru                # Structured, asynchronous logging for production debugging
+
+## --- Quality Control & Testing ---
+pytest                # Industry-standard testing framework
+moto[s3,lambda]       # Mocking AWS services for offline, cost-free testing
+pyyaml                # Parsing environment-specific configuration files
