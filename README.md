@@ -33,5 +33,33 @@ The data pipeline utilizes a modular serverless architecture on AWS.
 
 ## Core Tables
 
-## 
+### source_documents
+Each ingested document 
+ 
+### domains
+Domain affected
+
+### stated_outcomes
+What the document claims it does
+
+### actual_outcomes
+What the analysis determined it actually does
+
+### losers
+Who it benefitted 
+
+### winners
+Who it harmed
+
+### actions
+Concrete action taken
+
+### marker_inversions
+The rhetoric-to-reality gap — links a marker to its stated vs. actual meaning
+
+### rhetorical_markers
+The individual keywords and phrases being tracked
+
+### entities
+People, teams, organizations mentioned
 
