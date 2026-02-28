@@ -1,4 +1,4 @@
-# Automated Regulatory Intelligence Pipeline
+# Automated Institutional Intelligence Pipeline
 End-to-end data pipeline transforming unstructured text-heavy PDFs into a mapped knowledge base of entities, links, and operational directives. 
 
 > [!NOTE]
