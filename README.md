@@ -13,7 +13,7 @@ The data pipeline utilizes a modular serverless architecture on AWS.
 1. **Ingestion Layer:** Programmatically retrieves high-volume directives via REST APIs and specialized web-scraping modules. 
 2. **Transformation Layer:** AWS Lambda functions handle text extraction, OCR, and structural parsing. This layer converts binary PDF data into machine-readable text while preserving metadata hierarchies and complex document layouts.
 3. **Validation & Integrity Layer:** Rigorous runtime validation using Pandera and Pydantic. This layer enforces schema constraints and data-type consistency, preventing bad data from reaching production tables.
-4. **Persistence Layer:** Fully processed records are committed to a PostgreSQL relational database.
+4. **Persistence Layer:**  Fully processed records are committed to an Aurora PostgreSQL relational database.
 5. **Observability & Monitoring Layer:**  Real-time health tracking and forensic logging via AWS CloudWatch and Loguru. This layer integrates AWS CloudTrail for API auditing, AWS Config for infrastructure compliance, and Amazon SNS for automated alerting on schema violations or ingestion failures.
 
 ## Key Features
@@ -27,9 +27,8 @@ The data pipeline utilizes a modular serverless architecture on AWS.
 ## Tech Stack
 * Amazon Web Services (AWS)
 * Python
-* Aurora PostgreSQL 
+* Amazon Aurora PostgreSQL
 * Tesseract OCR
-* More to be added
 
 ## Core Tables
 
