@@ -45,3 +45,5 @@ The data pipeline utilizes a modular serverless architecture on AWS.
 | `rhetorical_markers` | The individual keywords and phrases being tracked |
 | `entities` | People, teams, organizations mentioned |
 
+All tables foreign key back to `source_documents` as the anchor of the pipeline.
+
